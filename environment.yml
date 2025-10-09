@@ -1,0 +1,37 @@
+name: patunai-ir
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - requests
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - ollama
+      - transformers
+      - accelerate
+      - peft
+      - bitsandbytes
+      - sentence-transformers
+      - huggingface-hub
+      - google-api-python-client
+      - google-auth
+      - rank-bm25
+      - faiss-cpu
+      - rerankers
+      - pillow
+      - opencv-python
+      - timm
+      - open-clip-torch
+      - jupyterlab
+      - ipywidgets
+      - rich
+      - typer
