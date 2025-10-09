@@ -1,0 +1,106 @@
+# ---- Byte-compiled / cache files ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pyo
+*.pyd
+
+# ---- Environment / package folders ----
+.env/
+.venv/
+venv/
+env/
+envs/
+.conda/
+*.conda
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# ---- Conda / Environment files ----
+conda-meta/
+pkgs/
+*.yml~
+*.yaml~
+*.bak
+
+# ---- Build / distribution ----
+build/
+develop-eggs/
+dist/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_convert.log
+
+# ---- Logs ----
+*.log
+logs/
+*.out
+*.err
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Data & outputs ----
+data/
+datasets/
+*.csv
+*.json
+*.tsv
+*.xlsx
+*.h5
+*.pth
+*.pt
+*.ckpt
+outputs/
+results/
+checkpoints/
+runs/
+models/
+experiments/
+
+# ---- Hugging Face / Transformers ----
+cache/
+~/.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+tokenizers_cache/
+datasets_cache/
+
+# ---- CUDA / PyTorch ----
+*.so
+*.dll
+*.bin
+
+# ---- Custom search keys / API secrets ----
+*.env
+secrets.json
+config.json
+credentials.json
+
+# ---- Misc ----
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.bak
