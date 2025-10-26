@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - scikit-learn
   - matplotlib
+  - nltk
   - tqdm
   - requests
   - pytorch
@@ -16,6 +17,7 @@ dependencies:
   - pip
   - pip:
       - ollama
+      - openpyxl
       - transformers
       - accelerate
       - peft
@@ -28,6 +30,7 @@ dependencies:
       - faiss-cpu
       - rerankers
       - pillow
+      - python-dotenv
       - opencv-python
       - timm
       - open-clip-torch
