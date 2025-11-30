@@ -35,6 +35,8 @@ dependencies:
       - timm
       - open-clip-torch
       - jupyterlab
+      - ipykernel
       - ipywidgets
+      - ipynbname
       - rich
       - typer
